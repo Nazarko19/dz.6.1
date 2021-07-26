@@ -14,7 +14,8 @@ let ok = form.submit
  ok.onclick = function (ev) {
     ev.preventDefault()
 
-     localStorage.setItem('storage',JSON.stringify(textiner))
+     let text1  = textiner.value
+     localStorage.setItem('storage',JSON.stringify(text1))
 }
 
 
